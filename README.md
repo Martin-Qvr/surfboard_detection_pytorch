@@ -19,3 +19,9 @@ Arguments :
 ## Outputs: 
 
 ![Output image](https://github.com/[Martin-Qvr]/[surfboard_detection_pytorch]/blob/[main]/code/output/example_O1_output.jpg?raw=true)
+
+
+Source : 
+
+I used [this repo](https://pyimagesearch.com/2021/08/02/pytorch-object-detection-with-pre-trained-networks/) as an inspiration to construct my own detector. 
+
