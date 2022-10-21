@@ -14,11 +14,11 @@ Arguments :
 
 
 ## Inputs: 
-![example_01.jpg : input image](https://github.com/[Martin-Qvr]/[surfboard_detection_pytorch]/blob/[main]/code/images/example_O1.jpg?raw=true)
+![example_01.jpg : input image](https://github.com/Martin-Qvr/surfboard_detection_pytorch/blob/e9bdb0314d3bfbaa96b681707cad95da62034839/code/images/example_01.jpg)
 
 ## Outputs: 
 
-![Output image](https://github.com/[Martin-Qvr]/[surfboard_detection_pytorch]/blob/[main]/code/output/example_O1_output.jpg?raw=true)
+![Output image](https://github.com/Martin-Qvr/surfboard_detection_pytorch/blob/e9bdb0314d3bfbaa96b681707cad95da62034839/code/output/example_01_output.jpg)
 
 
 Source : 
