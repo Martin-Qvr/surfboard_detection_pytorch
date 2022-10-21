@@ -1,11 +1,13 @@
 # import the necessary packages
 from torchvision.models import detection
-import pickle
+import os
 import numpy as np
 import argparse
 import pickle
 import torch
 import cv2
+
+
 
 
 # construct the argument parser and parse the arguments
@@ -86,6 +88,4 @@ for i in range(0, len(detections["boxes"])):
 		cv2.putText(orig, label, (startX, y),
 			cv2.FONT_HERSHEY_SIMPLEX, 0.5, COLORS[idx], 2)
 # show the output image
-cv2.imshow("Output", orig)
-cv2.waitKey(0)
-
+cv2.imwrite(f'./output/{args["image"].split("/")[1][:-4]}_output.jpg', orig) 
